@@ -1,0 +1,21 @@
+# Dependencies
+/node_modules
+/package-lock.json
+/yarn.lock
+
+# Log files
+npm-debug.log
+yarn-error.log
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build files
+/build
+/dist
