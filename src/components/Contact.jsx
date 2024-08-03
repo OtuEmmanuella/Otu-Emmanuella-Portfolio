@@ -13,16 +13,16 @@ const Contact = () => {
             <h3>Reach Out</h3>
             <p>
               <MdEmail className="contact-icon" />
-              <a href="mailto:pauledet339@gmail.com">pauledet339@gmail.com</a>
+              <a href="mailto:pauledet339@gmail.com">otumanuella@gmail.com</a>
             </p>
             <p>
               <MdLocationOn className="contact-icon" />
-              Your Location, City, Country
+              Calabar, Nigeria
             </p>
             <div className="social-links">
-              <a href="https://github.com/yourusername" aria-label="GitHub"><FaGithub /></a>
-              <a href="https://linkedin.com/in/yourusername" aria-label="LinkedIn"><FaLinkedin /></a>
-              <a href="https://twitter.com/yourusername" aria-label="Twitter"><FaTwitter /></a>
+              <a href="https://github.com/otuemmanuella" aria-label="GitHub"><FaGithub /></a>
+              <a href="https://www.linkedin.com/in/emmanuella-otu-6694b6260/" aria-label="LinkedIn"><FaLinkedin /></a>
+              <a href="https://x.com/ellakhing" aria-label="Twitter"><FaTwitter /></a>
             </div>
           </div>
           <form method="POST" action="https://getform.io/f/bwngyjla" className="contact-form">

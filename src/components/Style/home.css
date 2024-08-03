@@ -11,7 +11,7 @@
 .home {
   width: 100%;
   height: 100vh;
-  background-color: #080b10;
+  background-color: #080808;
   overflow: hidden;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .intro {
-  color: #64ffda;
+  color: #B7AB98;
   font-size: 1.2rem;
   font-weight: 500;
   font-family: 'Boder', sans-serif;
@@ -48,7 +48,7 @@
   font-family: 'Boder', sans-serif;
   font-size: 3.5rem;
   font-weight: bold;
-  color: #ccd6f6;
+  color: #EB5938;
   margin-bottom: 0.5rem;
   letter-spacing: -1px;
   margin: 0;
@@ -62,11 +62,12 @@
 }
 
 .description {
-  color: #8892b0;
+  color: #B7AB98;
   font-size: 1.1rem;
   line-height: 1.4;
   margin-bottom: 1.5rem;
-  text-transform: uppercase;
+  /* font-weight: 300; */
+  text-transform: capitalize;
 }
 
 .cta-container {
@@ -76,7 +77,8 @@
 
 .cta-button {
   color: white;
-  border: 2px solid #64ffda;
+  /* border: 2px solid #B7AB98; */
+  border: 2px solid #8892b0;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   font-weight: 600;
@@ -89,18 +91,20 @@
 }
 
 .cta-button.primary {
-  background-color: #64ffda;
-  color: #0a192f;
+  /* background-color: #EB5938; */
+  color: #B7AB98;
+
 }
 
 .cta-button.secondary {
   background-color: transparent;
-  color: #64ffda;
+  color: #B7AB98;
+ 
 }
 
 .cta-button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 10px rgba(100, 255, 218, 0.3);
+  box-shadow: 0 4px 10px rgba(136, 146, 176, 1);
 }
 
 .cta-button-icon {
@@ -117,7 +121,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-}
+} 
 
 .profile-image {
   width: 300px;
@@ -128,7 +132,7 @@
   background-position: center;
   border: 4px solid #8892b0;
   box-shadow: 0 0 20px rgba(100, 255, 218, 0.3);
-}
+} 
 
 /* Responsive design */
 @media (max-width: 1024px) {

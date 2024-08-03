@@ -14,6 +14,7 @@
   transition: all 0.3s ease;
 }
 
+
 .navbar.shadow {
   box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
 }
@@ -28,10 +29,15 @@
   align-items: center;
 }
 
+.navbar-container::before,
+.navbar-container::after {
+  content: none !important;
+}
+
+
 .logo img {
   height: 40px;
   width: auto;
- 
   margin: 1em 0;
   padding-top: .2em;
   filter: invert(1);
@@ -114,13 +120,13 @@
   padding: 0.5rem 0;
   font-weight: bold;
   letter-spacing: 0.2rem;
-  color: #ffffff;
+  color: #B7AB98;
   text-decoration: none;
   transition: color 0.3s linear;
 }
 
 .mobile-menu a:hover {
-  color: #cccccc;
+  color: #9A8F7D;
 }
 
 .social-icons {
@@ -138,7 +144,7 @@
 }
 
 .social-icons.mobile a {
-  color: #ffffff;
+  color: #B7AB98;
   font-size: 1.5rem;
 }
 
@@ -154,7 +160,7 @@
 
   .desktop-menu a {
     text-decoration: none;
-    color: #ffffff;
+    color: #B7AB98;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -170,12 +176,12 @@
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #ffffff;
+    background-color: #B7AB98;
     transition: width 0.3s ease;
   }
 
   .desktop-menu a:hover {
-    color: #cccccc;
+    color: #9A8F7D;
   }
 
   .desktop-menu a:hover::after {
@@ -205,7 +211,7 @@
   }
 
   .social-icons.desktop a {
-    color: #ffffff;
+    color: #B7AB98;
     font-size: 20px;
     transition: all 0.3s ease;
     display: flex;
@@ -213,7 +219,7 @@
   }
 
   .social-icons.desktop a:hover {
-    color: #cccccc;
+    color: #9A8F7D;
   }
 
   .social-icons.desktop .icon-name {
@@ -221,7 +227,7 @@
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #ffffff;
+    background-color: #B7AB98;
     color: #000000;
     padding: 5px 10px;
     border-radius: 4px;
