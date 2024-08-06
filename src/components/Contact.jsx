@@ -13,7 +13,7 @@ const Contact = () => {
             <h3>Reach Out</h3>
             <p>
               <MdEmail className="contact-icon" />
-              <a href="mailto:pauledet339@gmail.com">otumanuella@gmail.com</a>
+              <a href="mailto:otumanuella@gmail.com">otumanuella@gmail.com</a>
             </p>
             <p>
               <MdLocationOn className="contact-icon" />

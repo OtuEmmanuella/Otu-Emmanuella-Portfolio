@@ -67,7 +67,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href='/resume.pdf' target='_blank' rel='noopener noreferrer'>
+              <a href='/CV/Otu Emmanuella Original Resume 001.pdf' target='_blank' rel='noopener noreferrer'>
                 <BsFillPersonLinesFill />
                 <span className="icon-name">Resume</span>
               </a>
@@ -102,7 +102,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href='/resume.pdf' target='_blank' rel='noopener noreferrer'>
+              <a href='/CV/Otu Emmanuella Original Resume 001.pdf' target='_blank' rel='noopener noreferrer'>
                 <BsFillPersonLinesFill />
               </a>
             </li>
