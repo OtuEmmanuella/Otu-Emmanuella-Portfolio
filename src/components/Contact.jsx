@@ -25,7 +25,7 @@ const Contact = () => {
               <a href="https://x.com/ellakhing" aria-label="Twitter"><FaTwitter /></a>
             </div>
           </div>
-          <form method="POST" action="https://getform.io/f/bwngyjla" className="contact-form">
+          <form method="POST" action="https://getform.io/f/bjjevmnb" className="contact-form">
             <div className="form-group">
               <input type="text" id="name" name="name" required placeholder="Name" />
             </div>

@@ -34,13 +34,11 @@ import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
-import CursorTrail from './components/CursorTrail';
 
 const App = () => {
   return (
     <Router>
         <Navbar />
-        <CursorTrail />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

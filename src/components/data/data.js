@@ -1,4 +1,5 @@
 import Aries from '../../assets/projects/Aries.png';
+import Globalviz from '../../assets/projects/Global_viz.png'
 
 
 export const projects = [
@@ -13,12 +14,12 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Quantum Leap",
-    category: "Mobile App",
-    image: "/images/quantum-leap.jpg",
-    description: "Next-gen fitness tracking app",
-    github: "https://github.com/yourusername/quantum-leap",
-    demo: "https://quantum-leap-demo.com"
+    title: "Global Viz",
+    category: "Interactive Data Visualization",
+    image: Globalviz,
+    description: "An interactive platform built with React.js and Restful API, offering dynamic filtering and visualization of global data. Users can explore information by country, region, subregion, language, and population, with multilingual support for a seamless experience.",
+    github: "https://github.com/OtuEmmanuella/Global-Viz",
+    demo: "https://global-viz.vercel.app/"
   },
   {
     id: 3,

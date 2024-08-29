@@ -5,11 +5,11 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
 import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
-import Mongo from '../assets/mongo.png';
+import NextImg from '../assets/nextjs.png';
+import TypeScript from '../assets/typescript.png';
 
 const About = () => {
   const sectionRef = useRef(null);
@@ -20,10 +20,10 @@ const About = () => {
     { name: 'JAVASCRIPT', icon: JavaScript },
     { name: 'REACT', icon: ReactImg },
     { name: 'GITHUB', icon: GitHub },
-    { name: 'NODE JS', icon: Node },
-    { name: 'MONGO DB', icon: Mongo },
     { name: 'TAILWIND', icon: Tailwind },
     { name: 'FIREBASE', icon: FireBase },
+    { name: 'NEXT', icon: NextImg },
+    { name: 'TYPESCRIPT', icon: TypeScript },
   ];
 
   useEffect(() => {
