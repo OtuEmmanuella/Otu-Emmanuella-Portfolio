@@ -24,7 +24,7 @@ const Home = () => {
                   <HiArrowNarrowRight />
                 </span>
               </Link>
-              <a href="/CV/Otu Emmanuella Original Resume 001.pdf" download className='cta-button secondary'>
+              <a href="/CV/Otu Emmanuella Modified Resume 01.pdf" download className='cta-button secondary'>
                 Download CV
                 <span className='cta-button-icon'>
                   <IoMdDownload />
