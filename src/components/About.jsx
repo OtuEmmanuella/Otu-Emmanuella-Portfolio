@@ -10,6 +10,8 @@ import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import NextImg from '../assets/nextjs.png';
 import TypeScript from '../assets/typescript.png';
+import Sanity from '../assets/sanity logo.png'
+import Mongodb from '../assets/mongo.png'
 
 const About = () => {
   const sectionRef = useRef(null);
@@ -24,6 +26,8 @@ const About = () => {
     { name: 'FIREBASE', icon: FireBase },
     { name: 'NEXT', icon: NextImg },
     { name: 'TYPESCRIPT', icon: TypeScript },
+    { name: 'SANITY', icon: Sanity },
+    { name: 'MONGODB', icon: Mongodb },
   ];
 
   useEffect(() => {

@@ -1,5 +1,6 @@
 import Aries from '../../assets/projects/Aries.png';
 import Globalviz from '../../assets/projects/Global_viz.png'
+import HogisOrderNow from '../../assets/projects/OrderNow.png'
 
 
 export const projects = [
@@ -23,12 +24,12 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Mindscape",
-    category: "UI/UX",
-    image: "/images/mindscape.jpg",
-    description: "Intuitive interface for mental health app",
-    github: "https://github.com/yourusername/mindscape",
-    demo: "https://mindscape-demo.com"
+    title: "Hogis Group OrderNow",
+    category: "Full-Stack Ordering Application",
+    image: HogisOrderNow,
+    description: "OrderNow by Hogis Group streamlines dining, event booking, and hotel services across branches. Built with ReactJS and Firebase, it offers dine-in, pickup, or delivery options, order tracking, invoices, secure Paystack payments, and real-time email updates via Nodemailer.",
+    github: "https://github.com/OtuEmmanuella/Hogis-Group-OrderNow",
+    demo: "https://hogis-group.netlify.app/"
   },
   {
     id: 4,
@@ -37,7 +38,7 @@ export const projects = [
     image: "/images/eco-pulse.jpg",
     description: "Brand identity for sustainable tech startup",
     github: "https://github.com/yourusername/eco-pulse",
-    demo: "https://eco-pulse-demo.com"
+    demo: "https://try-brash.netlify.app/"
   },
   {
     id: 5,
